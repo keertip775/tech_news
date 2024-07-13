@@ -15,7 +15,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     // TODO: implement initState
 
-    Future.delayed(const Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 3), () {
       Get.off(HomePage());
     });
     super.initState();
